@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form tag</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label><br>
+       <input type="text" name="name" id="name" placeholder="Enter Name" required><br><br>
+       <label for="email">Email:</label><br>
+       <input type="text" name="mail" id="mail" placeholder="Enter Email ID"><br><br>
+       <label for="mobile">Mobile No:</label><br>
+        <input type="tel" name="mobile" id="mobile" placeholder="Enter Num"><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" id="Male"> Male
+        <input type="radio" name="gender" id="Female">Female
+        <input type="radio" name="gender" id="Others">others<br><br>
+        <label for="month">Joining Month</label>
+        <select name="month" id="month" required>
+            <option value="0"selected disabled>Select Month:</option>
+            <option value="jan">jan</option>
+            <option value="feb">feb</option>
+            <option value="mar">mar</option>
+            <option value="apr">apr</option>
+            <option value="may">may</option> 
+            <option value="jun">jun</option>
+            <option value="jul">jul</option>
+            <option value="aug">aug</option>
+            <option value="sep">sep</option>
+            <option value="oct">oct</option>
+            <option value="nov">oct</option>
+            <option value="dec">dec</option>---------------------------------------------------
+        </select><br><br>
+        <input type="checkbox" name="check" id="check">I agree<br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
