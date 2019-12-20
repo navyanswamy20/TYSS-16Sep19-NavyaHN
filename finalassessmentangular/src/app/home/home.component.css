@@ -1,0 +1,5 @@
+.background{
+    min-height: 170%;
+   transform: scale(1.0,1.65);
+   background-size: cover;
+}

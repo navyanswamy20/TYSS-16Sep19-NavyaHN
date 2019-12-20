@@ -1,0 +1,41 @@
+
+<div class="card card-body"> 
+    <table class=" table table-bordered table-hover">
+        <thead class="thead-dark" style="color: white;background-color: grey">
+            <tr>
+            <!-- <td>ProductId</td> -->
+            <td>Name</td>
+            <td>category</td>
+            <td>company</td>
+            <td>Quantity</td>
+            <td>price</td>
+            <td>Add to cart</td>
+            <td>Delete</td>
+           
+    
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let li of list'>
+                <!-- <td>{{li.pid}}</td> -->
+                <td>{{li.name}}</td>
+                <td>{{li.category}}</td>
+                <td>{{li.company}}</td>
+                <td>{{li.quantity}}</td>
+                <td>{{li.price}}</td>
+
+                <td>
+                    <div>
+                        <button type="button"(click)='addtoCart(li)'>Add to cart</button>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <button type="button"(click)='deleteProducts(li)'>Delete</button>
+                    </div>
+                </td>
+                
+            </tr>
+        </tbody>
+      </table>
+     </div> 

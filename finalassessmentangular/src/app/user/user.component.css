@@ -1,0 +1,6 @@
+.page{
+    min-width: 55vh;
+    min-height: 50vh;
+   transform: scale(1.0,1.65);
+   background-size: cover;
+}
